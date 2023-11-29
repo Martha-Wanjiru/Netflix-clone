@@ -1,0 +1,303 @@
+/* start of global styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* end of global styles */
+ /*start styling of navigation */
+ 
+    
+    .navbar .navs .navlinks{
+    display: flex;
+    list-style: none;
+    position: relative;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+ }
+ .navbar .navs .navlink2{
+    display: flex;
+    margin-left: 1300px;
+    gap: 30PX;
+ }
+ .navbar .navs .navlinks .logo{
+    margin-top: -30px;
+    height: 80px;
+    margin-left: 25px;
+ }  
+ .navbar .navs .navlinks .videobg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    }
+    .navbar .text{
+        display: flex;
+        padding-left: 52px;
+        padding-top: 50px;
+        color: white;
+    }
+    .navbar .text .nlogo{
+        height: 20px;
+    }
+    .navbar .text .series{
+        padding-top: 5px;
+    }
+    .navbar .text .summer{
+        margin-left: -310px;
+        padding-top: 55px;
+        font-size: 36px;
+          
+    } 
+    .navbar .text .surviving{
+        margin-left: -50px;
+        padding-top: 15px;
+        font-size: 40px;
+    }
+    .navbar .text .play{
+        margin-top: 120px;
+        color: white;
+        margin-left: -250px;
+        margin-right: 15px;
+        background: grey;
+        width: 100px;
+        height: 27px;
+        padding: 7px;
+        opacity: 80%;
+        border-radius: 2px;
+    }
+    .navbar .text a{
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        gap: 9px;
+
+    }
+    .navbar .text .tick{
+        margin-top: 120px;
+        color: white;
+        background: grey;
+        width: 100px;
+        height: 27px;
+        padding: 7px;
+        opacity: 80%;
+        border-radius: 2px;
+    }
+    .intro{
+        color: white;
+        margin-left: 57px;
+        margin-top: 30px;
+    }
+    .navbar .images{
+        margin-left: 15px;
+        display: flex;
+        margin-top: 100px;
+        
+    }
+    .navbar .images img{
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .navbar .movies {
+        margin-left: 15px;
+        display: flex;
+        margin-top: 1px;
+    }
+    .navbar .movies img{
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        border-radius: 10px; 
+    }
+ /*end styling of navigation */
+ /* start of footer */
+.footer{
+    width: 100%;
+    background: black;
+    height: 300px;
+    }
+    .kenyalogo{
+        display: flex;
+        margin-left: 20px;
+    }
+    .kenyalogo img{
+    width: 7%;
+    }
+    .kenyalogo h1{
+        color: white;
+        margin-top: 40px;
+        margin-left: -10px;
+    }
+    .footer p{
+        color: white;
+        margin-left: 40px;
+        opacity: 70%;
+    }
+    .icons{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 10px;
+        list-style: none;
+        gap: 25px;
+    }
+    .icons a{
+        text-decoration: none;
+        list-style: none;
+        margin-left: 20px;
+        color: white;
+    }
+    .icons .facebook{
+        background: rgba(2, 2, 92, 0.823);
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 17px;
+
+    }
+    .icons .plane{
+        background: rgb(1, 128, 240);
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 17px;
+    }
+    .icons .you{
+        background: rgb(255, 3, 3);
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 17px;
+    }
+    .icons .insta{
+        background: rgb(0, 0, 82);
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 17px;
+    }
+    .icons .twitter{
+        background: rgb(0, 115, 255);
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 17px;
+    }
+    .icons .wifi{
+        background: #ff7700;
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 17px;
+    }
+    .icons .cloud{
+        background: #ff7700;
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 17px;
+    }
+    .recentpost{
+        margin-left: 540px;
+        margin-top: -170px;
+        color: white;
+    }
+    .livestyle{
+        display: flex;
+    }
+    .footerimage1{
+        margin-top: -28px;
+        width: 80px;
+        height: 70px;
+        margin-left: 10px;
+        border-radius: 50px;
+    }
+     .style {
+        color: white;
+    }
+    .fashion{
+        color: white;
+        display: flex;
+        margin-top: 20px;
+    }
+    .fashion img{
+        width: 100px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 20px;
+    }
+     .categories{
+        color: white;
+        margin-left: 1100px;
+        margin-top: -230px;
+     }
+     .categories img{
+        height: 80px;
+        width: 340px;
+        border-radius: 20px;
+        object-fit: cover;
+        margin-top: -10px;
+        padding: 10px;
+        margin-left: -15px;
+        opacity: 70%;
+        
+     }
+     .maneno{
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        margin-top: -60px;
+        margin-left: 20px;
+     }
+     .recentpost p{
+       padding-right: 70px;
+     }
+        
+     .recentpost i{
+        margin-left: -40px;
+        gap: 20px;
+        }
+    .recentpost a{
+        list-style: none;
+        text-decoration: none;
+        background-color: yellow;
+        border-radius: 3px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+ /* end of footer */
